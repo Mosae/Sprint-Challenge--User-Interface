@@ -181,7 +181,7 @@ h5 {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 10vh;
   background-color: white;
@@ -197,47 +197,39 @@ header nav {
 .links {
   display: flex;
   text-decoration: none;
-
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
 }
-a:link {
+#link {
   text-decoration: none;
   color: grey;
 }
-a: visited {
 
-}
-.header-img {
-  padding: 2%;
-  width: 100%;
-}
 hr {
   border-top: 1px dotted black;
 }
 .first-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.strategy {
-  width: 49%;
-}
+
 .second-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 button {
   padding: 5px;
   border-radius: 5px;
   width: 10em;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.boxcontainer {
+  text-align: left;
+  width: 45%;
 }
 h2 {
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
 }
 .halfhr {
-  max-width: 800px;
-  width: 95%;
+  width: 100%;
   border-top: 1px dotted black;
 }
 
@@ -260,6 +252,7 @@ p {
 }
 
 .top-content .text-container {
+  text-align: left;
   width: 48%;
   padding: 0 1%;
   padding-bottom: 20px;
@@ -306,7 +299,7 @@ p {
   padding-right: 0;
 }
 .bottomP {
-  padding: 15px;
+  margin: 10px 0px 10px 0px;
 }
 
 footer {
