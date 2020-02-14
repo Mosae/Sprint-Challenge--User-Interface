@@ -188,9 +188,11 @@ header {
 }
 header nav {
   display: flex;
-  /* align-content: flex-end; */
+  align-items: center;
   justify-content: space-around;
   width: 100%;
+  text-decoration: none;
+  color: gray;
 }
 .links {
   display: flex;
@@ -203,6 +205,9 @@ a:link {
   text-decoration: none;
   color: grey;
 }
+a: visited {
+
+}
 .header-img {
   padding: 2%;
   width: 100%;
@@ -213,6 +218,9 @@ hr {
 .first-section {
   display: flex;
   justify-content: space-evenly;
+}
+.strategy {
+  width: 49%;
 }
 .second-section {
   display: flex;
@@ -228,6 +236,7 @@ h2 {
   margin: 10px;
 }
 .halfhr {
+  max-width: 800px;
   width: 95%;
   border-top: 1px dotted black;
 }
