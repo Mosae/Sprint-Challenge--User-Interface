@@ -179,10 +179,30 @@ a:link {
 hr {
   border-top: 1px dotted black;
 }
-.stategy {
-  width: 45%;
+.first-section {
+  display: flex;
+  justify-content: space-evenly;
 }
+.second-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  width: 10em;
+  margin: 10px;
+}
+h2 {
+  margin: 10px;
+}
+.halfhr {
+  width: 95%;
+  border-top: 1px dotted black;
+}
+
 p {
+  text-align: left;
   line-height: 1.4;
 }
 
