@@ -1,0 +1,18 @@
+Sprint challenge questions and answers
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
+A: It is a way of giving meaning to the HTML page. It clearly defines what purpose each element is serving.
+
+2. Name two big differences between display: block; and display: inline;
+A: Display: block elements fill up the entire line and nothing can be place on it’s right or left.
+display: inline elements allows content to float on it’s left and right side.
+
+
+3. What are the 4 areas of the box model?
+A: Margin, border, padding, content.
+
+4. While using flexbox, what axis does the following property work on: align-items: center? 
+A: on the horizontal-axis.
+
+5. Explain why git is valuable to a team of developers.
+A: It allows a team to collaborate on a project and can always revert back to previous changes.
