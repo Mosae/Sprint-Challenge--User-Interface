@@ -147,6 +147,37 @@ h5 {
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
+#one {
+  background-color: teal;
+}
+#two {
+  background-color: gold;
+}
+#three {
+  background-color: cadetblue;
+}
+#four {
+  background-color: coral;
+}
+#five {
+  background-color: crimson;
+}
+#six {
+  background-color: forestgreen;
+}
+
+#seven {
+  background-color: darkorchid;
+}
+#eight {
+  background-color: hotpink;
+}
+#nine {
+  background-color: indigo;
+}
+#ten {
+  background-color: dodgerblue;
+}
 
 header {
   display: flex;
