@@ -174,8 +174,14 @@ a:link {
 }
 .header-img {
   padding: 2%;
+  width: 100%;
 }
-
+hr {
+  border-top: 1px dotted black;
+}
+.stategy {
+  width: 45%;
+}
 p {
   line-height: 1.4;
 }
