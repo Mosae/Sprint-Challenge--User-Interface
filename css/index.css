@@ -265,6 +265,9 @@ p {
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
+.bottomP {
+  padding: 15px;
+}
 
 footer {
   width: 100%;
